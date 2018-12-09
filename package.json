@@ -1,0 +1,35 @@
+{
+  "name": "twitter-user-following-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.12",
+    "nodemon": "^1.18.7",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "start": "nodemon",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwelch/twitter-user-following-server.git"
+  },
+  "keywords": [],
+  "author": "Kyle Welch <kwelch0626@gmail.com> (https://krwelch.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwelch/twitter-user-following-server/issues"
+  },
+  "homepage": "https://github.com/kwelch/twitter-user-following-server#readme"
+}
